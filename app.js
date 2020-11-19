@@ -37,7 +37,7 @@ var formPedido = document.forms.pedido;
 formPedido.addEventListener("submit", function (event){
     let contador = 0;
 
-    var inputs = form.pedido.querySelectorAll("input.quantidade");
+    var inputs = formPedido.querySelectorAll("input.quantidade");
 
     for (let input of inputs) 
     {
